@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Smart Login System</title>
+   
+  </head>
+  <body>
+   
+     <div class="parent w-50 m-auto text-center my-5 py-5 shadow-lg">
+      <h1>Smart Login System</h1>
+      <input type="text" name="" id="nameInput" placeholder="Enter Your Name" class="form-control w-75 m-auto rounded-1 my-3 d-none text-light">
+      <input type="email" name="" id="emailInput" placeholder="Enter Your Email" class="form-control w-75 m-auto rounded-1 my-3 text-light">
+      <input type="password" name="" id="passInput" placeholder="Enter Password" class="form-control w-75 m-auto rounded-1 my-3 text-light">
+      <p id="message"  class=" d-none py-3 text-center text-danger">All Inputs is required</p>
+      <div class="buttons">
+        <button class="w-75 py-2 my-3" id="login"><a id="loginLink" target="_blank" class="text-decoration-none text-light">Login</a></button>
+        <button class="w-75 py-2 d-none" id="signUp">Sign Up</button>
+      </div>
+    
+
+      <p class="text-light my-3" id="paragraph">Don’t have an account? <span id="signUpWord">Sign Up</span>  </p>
+
+      
+     </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

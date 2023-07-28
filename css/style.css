@@ -1,0 +1,38 @@
+
+body{
+    background-color: #24353F;
+}
+.parent{
+    background-color: #24353F;
+}
+h1{
+    color: #189BB0;
+}
+#nameInput,#emailInput,#passInput{
+    background-color:transparent; 
+  
+}
+
+
+::placeholder{
+    color:white !important;
+
+}
+
+button{
+    background-color: #24353F;
+    border:#189BB0 1px solid;
+    color:#189BB0;
+}
+button:hover{
+    background-color: #189BB0;
+    color:white;
+}
+span{
+   
+    color:white;
+}
+span:hover{
+    border-bottom: 1px solid white;
+}
+
